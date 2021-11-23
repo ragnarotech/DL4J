@@ -1,3 +1,12 @@
+# Running Java
+## Download Java FX SDK
+
+## Update Java Compiler Arguments
+`--module-path ${PATH_TO_JAVAFX}\javafx-sdk-17.0.1\lib --add-modules javafx.controls,javafx.fxml,javafx.swing`
+
+## Update Java App Arguments
+`--module-path ${PATH_TO_JAVAFX}\javafx-sdk-17.0.1\lib --add-modules javafx.controls,javafx.fxml,javafx.swing`
+
 # Digit-Recognition-App
 Handwritten Digit Recognition Application uses Deeplearning4j and Neural Networks to classify digits.
 # Deeplearning4j
